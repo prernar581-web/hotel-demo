@@ -1,9 +1,9 @@
-import React from 'react'
+
 import './Header.css'
 import { useEffect } from "react";
 import { tns } from "tiny-slider";
 import "tiny-slider/dist/tiny-slider.css";
-import { Link } from "react-router-dom";
+
 
 const Header = () => {
     useEffect(() => {
@@ -59,7 +59,8 @@ const Header = () => {
     <>
     <div className='box1'>
         <div className="overlay"></div>
-        <a href="https://wa.me/0000000000?text=Hi%20Saipur%20Bagh%20%7C%20Please%20let%20us%20know%20About%20Hotels%20Rates%20%3F" target="_blank" className="corner-icon">
+        <a rel="stylesheet" href="https://wa.me/0000000000?text=Hi%20Saipur%20Bagh%20%7C%20Please%20let%20us%20know%20About%20Hotels%20Rates%20%3F target=_blank" className="corner-icon">
+    
                 <i class="fa fa-whatsapp"></i>
                 </a>
         <div className='container'>
@@ -179,10 +180,11 @@ const Header = () => {
                             <p>Peaceful garden-view rooms <br></br>offering comfort, elegance, and <br></br>true Rajasthani hospitality.</p>
                         </div>
                         <div className='k1'>
-                            <img src="https://saipurabagh.in/images/about-2.webp"/>
+                            <img src="https://saipurabagh.in/images/about-2.webp"  alt="22"/>
+                        
                         </div>
                         <div className='k1'>
-                            <img src="https://saipurabagh.in/images/about-1.webp"/>
+                            <img src="https://saipurabagh.in/images/about-1.webp"  alt="23"/>
                         </div>
                         <div className='k1'>
                                   <div className='icon'>
