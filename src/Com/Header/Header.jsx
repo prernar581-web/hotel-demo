@@ -406,11 +406,7 @@ const Header = () => {
                     <a
                       href="deluxe-room.html"
                       className="img img-room"
-                      style={{
-                        backgroundImage:
-                          "url('https://saipurabagh.in/images/delux-room.webp')",
-                      }}
-                    ></a>
+                     ><img src="https://saipurabagh.in/images/delux-room.webp" alt="44" /></a>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -439,13 +435,9 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap">
-                  <a
-  to="/swiss-tent"
+                  <a href="/swiss-tent"
   className="img img-room"
-  style={{
-    backgroundImage: `url("https://saipurabagh.in/images/tent-room.webp")`,
-  }}
-></a>
+ ><img src="https://saipurabagh.in/images/tent-room.webp" alt="55" /></a>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -477,11 +469,8 @@ const Header = () => {
                     <a
                       href="family-room.html"
                       className="img img-room"
-                      style={{
-                        backgroundImage:
-                          "url('https://saipurabagh.in/images/family-room.webp')",
-                      }}
-                    ></a>
+                   
+                    ><img src="https://saipurabagh.in/images/family-room.webp" alt="66" /></a>
 
                     <div className="text p-5 text-center">
                       <h3>
