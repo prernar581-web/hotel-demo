@@ -63,7 +63,7 @@ const Header = () => {
           href="https://wa.me/0000000000?text=Hi%20Saipur%20Bagh%20%7C%20Please%20let%20us%20know%20About%20Hotels%20Rates%20%3F target=_blank"
           className="corner-icon"
         >
-          <i class="fa fa-whatsapp"></i>
+          <i className="fa fa-whatsapp"></i>
         </a>
         <div className="container">
           <div className="row">
@@ -129,13 +129,13 @@ const Header = () => {
                   <button>
                     {" "}
                     TAKE A TOUR{" "}
-                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <i className="fa fa-arrow-right" aria-hidden="true"></i>
                   </button>
                 </div>
                 <div className="b2">
                   <a href="https://saipurabagh.in/about.html">
                     LEARN MORE{" "}
-                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <i className="fa fa-arrow-right" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
@@ -150,27 +150,27 @@ const Header = () => {
               <div className="d1">
                 <p>CHECK-IN</p>
                 <span>
-                  <i class="fa fa-calendar" aria-hidden="true"></i> Check-In
+                  <i className="fa fa-calendar" aria-hidden="true"></i> Check-In
                   Date
                 </span>
               </div>
               <div className="d1">
                 <p>CHECK-OUT</p>
                 <span>
-                  <i class="fa fa-calendar" aria-hidden="true"></i> Check-In
+                  <i className="fa fa-calendar" aria-hidden="true"></i> Check-In
                   Date
                 </span>
               </div>
               <div className="d1">
                 <p>ROOMS</p>
                 <span>
-                  <i class="fa fa-angle-down" aria-hidden="true"></i> Suit
+                  <i className="fa fa-angle-down" aria-hidden="true"></i> Suit
                 </span>
               </div>
               <div className="d1">
                 <p>GUESTS</p>
                 <span>
-                  <i class="fa fa-angle-down" aria-hidden="true"></i> 1 Person
+                  <i className="fa fa-angle-down" aria-hidden="true"></i> 1 Person
                 </span>
               </div>
               <div className="d2">
@@ -188,7 +188,7 @@ const Header = () => {
                 <div className="k1">
                   <div className="icon">
                     <span class="flaticon-pillow">
-                      <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                      <i className="fa fa-hospital-o" aria-hidden="true"></i>
                     </span>
                   </div>
                   <h3>Cozy Rooms</h3>
@@ -212,7 +212,7 @@ const Header = () => {
                 <div className="k1">
                   <div className="icon">
                     <span class="flaticon-pillow">
-                      <i class="fa fa-superpowers" aria-hidden="true"></i>
+                      <i className="fa fa-superpowers" aria-hidden="true"></i>
                     </span>
                   </div>
                   <h3>Special Offers</h3>
@@ -276,7 +276,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <i className="fa fa-wifi" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -293,7 +293,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <i className="fa fa-laptop" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -310,7 +310,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+                    <i className="fa fa-folder-open-o" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -327,7 +327,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-tint" aria-hidden="true"></i>
+                    <i className="fa fa-tint" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -344,7 +344,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-medkit" aria-hidden="true"></i>
+                    <i className="fa fa-medkit" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -361,7 +361,7 @@ const Header = () => {
               <a href="index.html#" class="services">
                 <div className="icon">
                   <span>
-                    <i class="fa fa-life-ring" aria-hidden="true"></i>
+                    <i className="fa fa-life-ring" aria-hidden="true"></i>
                   </span>
                 </div>
                 <div className="text">
@@ -403,14 +403,14 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap d-md-flex flex-md-column-reverse">
-                    <Link
+                    <a
                       href="deluxe-room.html"
                       className="img img-room"
                       style={{
                         backgroundImage:
                           "url('https://saipurabagh.in/images/delux-room.webp')",
                       }}
-                    ></Link>
+                    ></a>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -439,13 +439,13 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap">
-                  <Link
+                  <a
   to="/swiss-tent"
   className="img img-room"
   style={{
     backgroundImage: `url("https://saipurabagh.in/images/tent-room.webp")`,
   }}
-></Link>
+></a>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -474,14 +474,14 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap d-md-flex flex-md-column-reverse">
-                    <Link
+                    <a
                       href="family-room.html"
                       className="img img-room"
                       style={{
                         backgroundImage:
                           "url('https://saipurabagh.in/images/family-room.webp')",
                       }}
-                    ></Link>
+                    ></a>
 
                     <div className="text p-5 text-center">
                       <h3>
