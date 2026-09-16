@@ -1,6 +1,6 @@
 import "./Header.css";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import { tns } from "tiny-slider";
 import "tiny-slider/dist/tiny-slider.css";
 
