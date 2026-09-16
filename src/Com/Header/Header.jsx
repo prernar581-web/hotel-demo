@@ -1,5 +1,6 @@
 import "./Header.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { tns } from "tiny-slider";
 import "tiny-slider/dist/tiny-slider.css";
 
@@ -402,14 +403,14 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap d-md-flex flex-md-column-reverse">
-                    <a
+                    <Link
                       href="deluxe-room.html"
                       className="img img-room"
                       style={{
                         backgroundImage:
                           "url('https://saipurabagh.in/images/delux-room.webp')",
                       }}
-                    ></a>
+                    ></Link>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -438,14 +439,13 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap">
-                    <a
-                      href="swiss-tent.html"
-                      className="img img-room"
-                      style={{
-                        backgroundImage:
-                          "url('https://saipurabagh.in/images/tent-room.webp')",
-                      }}
-                    ></a>
+                  <Link
+  to="/swiss-tent"
+  className="img img-room"
+  style={{
+    backgroundImage: `url("https://saipurabagh.in/images/tent-room.webp")`,
+  }}
+></Link>
 
                     <div className="text p-5 text-center">
                       <h3>
@@ -474,14 +474,14 @@ const Header = () => {
                   data-aos-duration="1000"
                 >
                   <div className="room-wrap d-md-flex flex-md-column-reverse">
-                    <a
+                    <Link
                       href="family-room.html"
                       className="img img-room"
                       style={{
                         backgroundImage:
                           "url('https://saipurabagh.in/images/family-room.webp')",
                       }}
-                    ></a>
+                    ></Link>
 
                     <div className="text p-5 text-center">
                       <h3>
