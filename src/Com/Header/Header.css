@@ -172,10 +172,9 @@ height: 53px;
     border: 1px solid #c5a880 !important;
     color: #fff !important;
 
-}
-.container-xl {
+}.container-xl {
     max-width: 1320px;
-    height: 500px;
+    height: auto;
 }
 .n3 .b2 {
     width: 150px;
@@ -523,8 +522,7 @@ a {
 }
 .row.justify-content-center {
     width: 100%;
-    height: 250px;
-
+    height: auto;
     position: relative;
 }
 .col-md-3.col-xl-2.text-center.d-flex.align-items-stretch.aos-init.aos-animate {
@@ -649,7 +647,7 @@ p {
 .testimony-section {
     width: 100%;
     position: relative;
-    bottom: 205px;
+    bottom: 0px;
 }
 
 .testimony-section .tns-outer {
@@ -966,9 +964,9 @@ opacity: 1;
     background: #111111;
     color: rgba(255, 255, 255, 0.7);
     font-family: Arial, Helvetica, sans-serif;
-    
     position: relative;
-    top: 20px;
+    top: 100px;
+    height: auto;
 }
 
 
@@ -1873,11 +1871,11 @@ a {
         margin-bottom: 50px;
     }
 
-    .k1 {
-        width: calc(50% - 12px);
-        height: 260px;
-        margin: 6px;
-    }
+   .k1 {
+    width: calc(50% - 12px);
+    height: 305px;
+    margin: 6px;
+}
 
     .k1 img {
         width: 100%;
@@ -2092,12 +2090,13 @@ a {
         font-size: 1.4rem;
     }
 
-    .box2 {
-        height: 150px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+   .box2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
     .box2 img {
         width: 75px;
@@ -2268,6 +2267,7 @@ a {
         position: static;
         margin-bottom: 50px;
     }
+ 
 
     .box5 .col-md-6 {
         width: 100%;
@@ -2275,7 +2275,7 @@ a {
 
     .k1 {
         width: calc(50% - 8px);
-        height: 220px;
+        height: auto;
         margin: 4px;
     }
 
@@ -2361,11 +2361,12 @@ a {
         font-size: 11px;
     }
 
-    .ftco-section .row.justify-content-center:last-child {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-    }
+   .ftco-section .row.justify-content-center:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    height: auto;
+}
 
     .ftco-section .col-md-3.col-xl-2 {
         width: 100%;
@@ -2675,8 +2676,9 @@ a {
     }
 
     .n1 {
-        top: 55px;
-    }
+    top: 55px;
+    height: auto;
+}
 
     .n1 h1 {
         font-size: 35px;
